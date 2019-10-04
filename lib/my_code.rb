@@ -53,7 +53,7 @@ end
 def reduce_to_all_true(array)
   counter = 0 
   while counter < array.size do 
-    return false if [counter] == false #current element is false(condition)
+    return false if ([counter] == false) # current element is false(condition)
     counter += 1 
   end 
   return true 
