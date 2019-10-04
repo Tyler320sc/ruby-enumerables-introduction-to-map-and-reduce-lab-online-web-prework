@@ -69,7 +69,7 @@ def reduce_to_any_true(array)
     end 
     counter += 1 
   end 
-  return true 
+  return false 
 end
 
 
