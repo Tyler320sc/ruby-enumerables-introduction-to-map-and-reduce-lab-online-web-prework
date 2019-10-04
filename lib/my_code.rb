@@ -61,6 +61,16 @@ def reduce_to_all_true(array)
   return true 
 end
 
+def reduce_to_any_true(array)
+  counter = 0 
+  while counter < array.size do 
+      if (array[counter] == true) # current element is false 
+      return true 
+    end 
+    counter += 1 
+  end 
+  return true 
+end
 
 
 
